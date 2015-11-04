@@ -35,9 +35,11 @@ namespace WindowsFormsApplication1
             waveViewer1.SamplesPerPixel = 450;
             waveViewer1.WaveStream = new NAudio.Wave.WaveFileReader(ofd.FileName);
 
-            chart1.Series.Add("wave");
-            chart1.Series["wave"].ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.FastLine;
-            chart1.Series["wave"].ChartArea = "ChartArea1";
+            string WaveStr = "wave" + DateTime.Now.ToString();
+            chart1.Series.Clear();
+            chart1.Series.Add(WaveStr);          
+            chart1.Series[WaveStr].ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.FastLine;
+            chart1.Series[WaveStr].ChartArea = "ChartArea1";
 
             NAudio.Wave.WaveChannel32 wave = new NAudio.Wave.WaveChannel32(new NAudio.Wave.WaveFileReader(ofd.FileName));
 
@@ -50,9 +52,9 @@ namespace WindowsFormsApplication1
 
                 for (int i = 0; i < read / 4; i++)
                 {
-                    chart1.Series["wave"].Points.Add(BitConverter.ToSingle(buffer, i * 4));
+                    chart1.Series[WaveStr].Points.Add(BitConverter.ToSingle(buffer, i * 4));
                 }
-            }
+            }            
         }
 
         void OutPut(string name, string source, bool isNew)
@@ -193,34 +195,6 @@ namespace WindowsFormsApplication1
 
         }
 
-        private void openWaveToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            OpenFileDialog open = new OpenFileDialog();
-            open.Filter = "Wave File (*.wav)|*.wav;";
-            if (open.ShowDialog() != DialogResult.OK) return;
-
-            waveViewer1.SamplesPerPixel = 450;
-            waveViewer1.WaveStream = new NAudio.Wave.WaveFileReader(open.FileName);
-
-            chart1.Series.Add("wave");
-            chart1.Series["wave"].ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.FastLine;
-            chart1.Series["wave"].ChartArea = "ChartArea1";
-
-            NAudio.Wave.WaveChannel32 wave = new NAudio.Wave.WaveChannel32(new NAudio.Wave.WaveFileReader(open.FileName));
-
-            byte[] buffer = new byte[16384];
-            int read = 0;
-
-            while (wave.Position < wave.Length)
-            {
-                read = wave.Read(buffer, 0, 16384);
-
-                for (int i = 0; i < read / 4; i++)
-                {
-                    chart1.Series["wave"].Points.Add(BitConverter.ToSingle(buffer, i * 4));
-                }
-            }
-        }
 
         private void chart1_Click(object sender, EventArgs e)
         {

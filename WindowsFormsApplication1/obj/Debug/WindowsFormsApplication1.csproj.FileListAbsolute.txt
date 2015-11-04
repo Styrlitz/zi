@@ -19,3 +19,9 @@ C:\Users\Styrlitz\Лабы\ЗІ\zi-master\zi-master\WindowsFormsApplication1\obj
 C:\kpi\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
 C:\kpi\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
 C:\kpi\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
+C:\kpi\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+C:\kpi\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+C:\kpi\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csprojResolveAssemblyReference.cache
+C:\kpi\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form1.resources
+C:\kpi\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\kpi\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.GenerateResource.Cache
