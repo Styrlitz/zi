@@ -1,0 +1,18 @@
+D:\кпи\3 курс\ya\zi\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+D:\кпи\3 курс\ya\zi\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+D:\кпи\3 курс\ya\zi\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+D:\кпи\3 курс\ya\zi\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csprojResolveAssemblyReference.cache
+D:\кпи\3 курс\ya\zi\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form1.resources
+D:\кпи\3 курс\ya\zi\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+D:\кпи\3 курс\ya\zi\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.GenerateResource.Cache
+D:\кпи\3 курс\ya\zi\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+D:\кпи\3 курс\ya\zi\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
+C:\Users\Styrlitz\Лабы\ЗІ\zi-master\zi-master\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+C:\Users\Styrlitz\Лабы\ЗІ\zi-master\zi-master\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+C:\Users\Styrlitz\Лабы\ЗІ\zi-master\zi-master\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
+C:\Users\Styrlitz\Лабы\ЗІ\zi-master\zi-master\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+C:\Users\Styrlitz\Лабы\ЗІ\zi-master\zi-master\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+C:\Users\Styrlitz\Лабы\ЗІ\zi-master\zi-master\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csprojResolveAssemblyReference.cache
+C:\Users\Styrlitz\Лабы\ЗІ\zi-master\zi-master\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form1.resources
+C:\Users\Styrlitz\Лабы\ЗІ\zi-master\zi-master\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\Styrlitz\Лабы\ЗІ\zi-master\zi-master\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.GenerateResource.Cache
